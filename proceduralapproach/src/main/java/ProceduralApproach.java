@@ -2,8 +2,8 @@ import processing.core.PApplet;
 public class ProceduralApproach extends PApplet{
 
     public static final int HEIGHT = 500;
-    public static final int WIDTH = 560;
-    public static final int RADIUS = 20;
+    public static final int WIDTH = 660;
+    public static final int DIAMETER = 20;
     float ball1X, ball2X, ball3X, ball4X;
     float ball1Speed, ball2Speed, ball3Speed, ball4Speed;
 
@@ -35,10 +35,10 @@ public class ProceduralApproach extends PApplet{
     }
 
     private void drawBalls() {
-        ellipse(ball1X, HEIGHT / 5, RADIUS, RADIUS);
-        ellipse(ball2X, 2 * HEIGHT / 5, RADIUS , RADIUS);
-        ellipse(ball3X, 3 * HEIGHT / 5, RADIUS , RADIUS);
-        ellipse(ball4X, 4 * HEIGHT / 5, RADIUS , RADIUS);
+        ellipse(ball1X, HEIGHT / 5, DIAMETER, DIAMETER);
+        ellipse(ball2X, 2 * HEIGHT / 5, DIAMETER, DIAMETER);
+        ellipse(ball3X, 3 * HEIGHT / 5, DIAMETER, DIAMETER);
+        ellipse(ball4X, 4 * HEIGHT / 5, DIAMETER, DIAMETER);
     ball1X += ball1Speed;
         ball2X += ball2Speed;
         ball3X += ball3Speed;
