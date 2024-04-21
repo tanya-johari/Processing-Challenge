@@ -3,6 +3,7 @@ public class ProceduralApproach extends PApplet{
 
     public static final int HEIGHT = 500;
     public static final int WIDTH = 560;
+    public static final int RADIUS = 20;
     float ball1X, ball2X, ball3X, ball4X;
     float ball1Speed, ball2Speed, ball3Speed, ball4Speed;
 
@@ -34,11 +35,11 @@ public class ProceduralApproach extends PApplet{
     }
 
     private void drawBalls() {
-        ellipse(ball1X, HEIGHT / 5, 20 , 20);
-        ellipse(ball2X, 2 * HEIGHT / 5, 20 , 20);
-        ellipse(ball3X, 3 * HEIGHT / 5, 20 , 20);
-        ellipse(ball4X, 4 * HEIGHT / 5, 20 , 20);
-        ball1X += ball1Speed;
+        ellipse(ball1X, HEIGHT / 5, RADIUS, RADIUS);
+        ellipse(ball2X, 2 * HEIGHT / 5, RADIUS , RADIUS);
+        ellipse(ball3X, 3 * HEIGHT / 5, RADIUS , RADIUS);
+        ellipse(ball4X, 4 * HEIGHT / 5, RADIUS , RADIUS);
+    ball1X += ball1Speed;
         ball2X += ball2Speed;
         ball3X += ball3Speed;
         ball4X += ball4Speed;
