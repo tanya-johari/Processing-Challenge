@@ -1,4 +1,4 @@
-import processing.core.*;
+import processing.core.PApplet;
 
 class Ball {
     public static final int RADIUS = 20;
