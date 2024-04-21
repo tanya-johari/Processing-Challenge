@@ -1,7 +1,7 @@
 import processing.core.PApplet;
 
 class Ball {
-    public static final int RADIUS = 20;
+    public static final int DIAMETER = 20;
     private float positionX, positionY;
     private float speed;
 
@@ -16,13 +16,13 @@ class Ball {
     }
 
     public void display(PApplet sketch) {
-        sketch.ellipse(positionX, positionY, RADIUS, RADIUS);
+        sketch.ellipse(positionX, positionY, DIAMETER, DIAMETER);
     }
 }
 public class OOPApproach extends PApplet {
 
     public static final int HEIGHT = 500;
-    public static final int WIDTH = 540;
+    public static final int WIDTH = 640;
 
     Ball[] balls = new Ball[4];
 
