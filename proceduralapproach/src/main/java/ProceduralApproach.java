@@ -1,11 +1,17 @@
 import processing.core.PApplet;
+
+import java.util.Arrays;
+
 public class ProceduralApproach extends PApplet{
 
-    public static final int HEIGHT = 500;
-    public static final int WIDTH = 660;
-    public static final int DIAMETER = 20;
-    float ball1X, ball2X, ball3X, ball4X;
-    float ball1Speed, ball2Speed, ball3Speed, ball4Speed;
+    public static final int NUM_BALLS = 4;
+    public static final int SCREEN_HEIGHT = 500;
+    public static final int SCREEN_WIDTH = 660;
+    public static final float[] HEIGHT_FRACTIONS = { 1.0f/5, 2.0f/5, 3.0f/5, 4.0f/5};
+    public static final float[] BALL_SPEEDS = {1, 2, 3, 4};
+    public static final int BALL_SIZE = 20;
+
+    float[] ballX = new float[NUM_BALLS];
 
     public static void main(String[] args) {
         PApplet.main("ProceduralApproach", args);
@@ -13,39 +19,24 @@ public class ProceduralApproach extends PApplet{
 
     @Override
     public void settings() {
-        size(WIDTH, HEIGHT);
+        size(SCREEN_WIDTH, SCREEN_HEIGHT);
     }
 
     @Override
     public void setup() {
-        ball1X = 0;
-        ball2X = 0;
-        ball3X = 0;
-        ball4X = 0;
-        ball1Speed = 1;
-        ball2Speed = 2;
-        ball3Speed = 3;
-        ball4Speed = 4;
+        background(255);
+        Arrays.fill(ballX, 0);
     }
 
     @Override
     public void draw() {
-//        paintWhite();
-        drawBalls();
+        for (int i = 0; i < NUM_BALLS; i++) {
+            drawBalls(ballX[i], HEIGHT_FRACTIONS[i] * SCREEN_HEIGHT);
+            ballX[i] += BALL_SPEEDS[i];
+        }
     }
 
-    private void drawBalls() {
-        ellipse(ball1X, HEIGHT / 5, DIAMETER, DIAMETER);
-        ellipse(ball2X, 2 * HEIGHT / 5, DIAMETER, DIAMETER);
-        ellipse(ball3X, 3 * HEIGHT / 5, DIAMETER, DIAMETER);
-        ellipse(ball4X, 4 * HEIGHT / 5, DIAMETER, DIAMETER);
-    ball1X += ball1Speed;
-        ball2X += ball2Speed;
-        ball3X += ball3Speed;
-        ball4X += ball4Speed;
-    }
-
-    private void paintWhite() {
-        background(255);
+    private void drawBalls(float speed, float height) {
+        ellipse(speed, height, BALL_SIZE, BALL_SIZE);
     }
 }
