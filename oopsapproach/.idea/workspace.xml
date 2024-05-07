@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36e16d38-40cd-4b5d-b17a-d124faa8b1d5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOPApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOPApproach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proceduralapproach/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../proceduralapproach/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proceduralapproach/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../proceduralapproach/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proceduralapproach/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../proceduralapproach/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proceduralapproach/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../proceduralapproach/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proceduralapproach/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../proceduralapproach/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proceduralapproach/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../proceduralapproach/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proceduralapproach/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../proceduralapproach/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proceduralapproach/build/classes/java/main/ProceduralApproach.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proceduralapproach/build/classes/java/main/ProceduralApproach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proceduralapproach/build/tmp/compileJava/compileTransaction/stash-dir/ProceduralApproach.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/../proceduralapproach/build/tmp/compileJava/compileTransaction/stash-dir/ProceduralApproach.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proceduralapproach/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../proceduralapproach/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proceduralapproach/output.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proceduralapproach/src/main/java/ProceduralApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proceduralapproach/src/main/java/ProceduralApproach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
